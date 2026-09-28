@@ -1,0 +1,132 @@
+# PhotoWriter End User License Agreement (EULA)
+
+Last Updated: September 26, 2026
+
+This End User License Agreement ("Agreement") is a legal agreement between you ("you" or "User") and the developers of PhotoWriter ("Developer", "we", "us", or "our") governing your use of the PhotoWriter software application, including its desktop application, installers, updates, documentation, and related components (collectively, "PhotoWriter" or the "Software").
+
+By installing, copying, accessing, or using PhotoWriter, you agree to be bound by the terms of this Agreement. If you do not agree to these terms, do not install or use PhotoWriter.
+
+----------------------------------------------------------------------
+1. LICENSE GRANT
+----------------------------------------------------------------------
+Subject to your compliance with this Agreement, Developer grants you a limited, non-exclusive, non-transferable, revocable license to install and use PhotoWriter on computers and devices that you own or control for personal, professional, or internal business purposes.
+
+This license does not transfer ownership of PhotoWriter or any intellectual property rights in the Software to you. Developer reserves all rights not expressly granted herein.
+
+----------------------------------------------------------------------
+2. OWNERSHIP & USER CONTENT
+----------------------------------------------------------------------
+1. PhotoWriter Intellectual Property: PhotoWriter, including its source code, binary executables, interface designs, logos, icons, algorithms, documentation, and database schemas, is owned by Developer and its licensors, protected by copyright and intellectual property laws.
+2. User Content: You retain full ownership and copyright of your photographs, source image files, project metadata, stories, annotations, text, exported assets, and credentials that you process, create, or import into PhotoWriter ("User Content").
+3. No Claim to Your Work: Developer claims no ownership, intellectual property rights, or copyright over your User Content.
+
+----------------------------------------------------------------------
+3. RESTRICTIONS ON USE
+----------------------------------------------------------------------
+Except as expressly permitted by applicable law, you agree not to:
+1. Sell, rent, lease, sublicense, distribute, or host PhotoWriter as a paid commercial service for third parties without prior written consent;
+2. Reverse engineer, decompile, or disassemble binary distributions of PhotoWriter, except where applicable law expressly permits such actions notwithstanding contractual restrictions;
+3. Remove or alter any copyright, trademark, or legal notices bundled with the Software;
+4. Use PhotoWriter to transmit malicious code or engage in any unlawful, infringing, or abusive activity; or
+5. Circumvent security or license mechanisms implemented within the Software.
+
+----------------------------------------------------------------------
+4. FILE MANAGEMENT AND SOURCE PHOTO PROTECTION
+----------------------------------------------------------------------
+1. Local Operations: PhotoWriter performs file system operations (indexing, metadata extraction, cache creation, thumbnail generation, copying, moving, and project bundling) according to user actions.
+2. Source Integrity: While PhotoWriter is engineered to avoid destructive modifications to original source photos, file system errors, permission faults, hardware disconnections, or operating system failures can occur.
+3. User Responsibility: You are solely responsible for verifying selected file paths, source locations, and storage availability before executing batch operations or project reorganizations.
+
+----------------------------------------------------------------------
+5. MANDATORY INDEPENDENT BACKUPS & DATA PRESERVATION
+----------------------------------------------------------------------
+YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR MAINTAINING FREQUENT, INDEPENDENT BACKUPS OF ALL VALUABLE DATA.
+
+1. Not a Cloud Storage or Archival Service: PhotoWriter is a local photo curation and story-writing tool, not an archival or cloud backup service.
+2. Data at Risk: You must independently back up:
+   - Original and edited image files;
+   - PhotoWriter project database files (.db, .sqlite);
+   - Story transcripts, captions, and layout metadata;
+   - Exported publications; and
+   - Synchronization directories and configuration files.
+3. No Recovery Guarantee: Developer provides no warranty or guarantee that damaged, lost, or corrupted databases or projects can be recovered or restored.
+
+----------------------------------------------------------------------
+6. PROJECT DATABASES, SQLITE & MIGRATION STATES
+----------------------------------------------------------------------
+1. Database Storage: PhotoWriter utilizes embedded SQLite databases to track projects, photos, tags, stories, and synchronization history.
+2. Corruption Risks: Software crashes, sudden power loss, improper external drive removal, disk failures, or unauthorized third-party file manipulation may corrupt the database.
+3. Schema Migrations: Version upgrades may include database migrations. While automatic backup points may be created, you must independently back up your project folders prior to installing software updates.
+
+----------------------------------------------------------------------
+7. SYNCHRONIZATION & PEER-TO-PEER TRANSFERS
+----------------------------------------------------------------------
+1. Conflict Resolution: PhotoWriter may offer local network (P2P) or cloud-folder synchronization. Synchronization uses automated conflict resolution rules (e.g., timestamps, vector clocks, or Last-Write-Wins), which may result in overwritten or discarded concurrent edits.
+2. No Backup Guarantee: Synchronization is a collaboration tool, not a versioned backup archive.
+3. Network Security: When synchronizing across local networks or shared drives, you are responsible for network security, firewall configuration, and ensuring pairing tokens/keys are shared only with trusted peers.
+
+----------------------------------------------------------------------
+8. THIRD-PARTY INTEGRATIONS, APIS & PUBLISHING (E.G., TELEGRAM)
+----------------------------------------------------------------------
+1. API Keys and Credentials: If you configure API keys, bot tokens, login credentials, or channel identifiers (such as for Telegram channel publishing), you are solely responsible for protecting those secrets.
+2. Compliance with Third-Party Terms: You agree to comply with the terms of service, privacy policies, rate limits, and content rules of any third-party service you connect to PhotoWriter.
+3. No Liability for Account Actions: Developer is not responsible for any actions taken by third-party platforms, including rate-limiting, post deletion, API deprecation, or account suspension resulting from your use of PhotoWriter.
+
+----------------------------------------------------------------------
+9. AI, AUTOMATED ANALYSIS & QUALITY SCORING
+----------------------------------------------------------------------
+1. Informational Output: Automated image analysis (such as blur detection, exposure scoring, aesthetic filters, or AI tagging) is provided strictly for convenience and informational purposes.
+2. No Quality Guarantee: Developer does not warrant the absolute accuracy, completeness, or suitability of automated analysis algorithms. You are responsible for inspecting and verifying photo quality before making deletion or publishing decisions.
+
+----------------------------------------------------------------------
+10. PRIVACY & DATA TRANSMISSION
+----------------------------------------------------------------------
+1. Local-First Architecture: PhotoWriter operates primarily as a local application on your workstation.
+2. No Covert Tracking: PhotoWriter does not sell or harvest your personal photos or creative content.
+3. Outbound Requests: Network requests occur only when initiated by features you configure (e.g., publishing to Telegram, peer discovery, checking for updates, or remote sync).
+
+----------------------------------------------------------------------
+11. DISCLAIMER OF WARRANTIES
+----------------------------------------------------------------------
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, PHOTOWRITER IS PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND.
+
+DEVELOPER DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, AND UNINTERRUPTED OR ERROR-FREE OPERATION.
+
+YOU ASSUME FULL RESPONSIBILITY AND RISK FOR YOUR USE OF THE SOFTWARE, SELECTION OF STORAGE LOCATIONS, AND INTEGRITY OF YOUR DATA.
+
+----------------------------------------------------------------------
+12. LIMITATION OF LIABILITY
+----------------------------------------------------------------------
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL DEVELOPER, ITS CONTRIBUTORS, OR LICENSORS BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES WHATSOEVER.
+
+THIS INCLUDES DAMAGES FOR:
+- LOSS, CORRUPTION, OR INACCESSIBILITY OF PHOTOGRAPHS, METADATA, OR STORIES;
+- FAILURE OR DELAY IN SYNCHRONIZATION;
+- HARDWARE, OPERATING SYSTEM, OR STORAGE DEVICE FAILURES;
+- THIRD-PARTY PLATFORM ACTIONS OR API OUTAGES;
+- LOSS OF BUSINESS, GOODWILL, REVENUE, OR DATA.
+
+DEVELOPER'S TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THIS AGREEMENT OR PHOTOWRITER SHALL NOT EXCEED THE AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE IN THE PRECEDING TWELVE MONTHS, OR US$50 (WHICHEVER IS GREATER).
+
+----------------------------------------------------------------------
+13. INDEMNIFICATION
+----------------------------------------------------------------------
+You agree to indemnify, defend, and hold harmless Developer from and against any third-party claims, liabilities, losses, damages, or costs (including reasonable legal fees) arising from:
+1. Your violation of this Agreement;
+2. Your violation of third-party rights (including copyright, trademark, privacy, or publicity rights);
+3. User Content published or distributed through PhotoWriter; or
+4. Your use of third-party APIs in violation of their applicable rules.
+
+----------------------------------------------------------------------
+14. TERMINATION
+----------------------------------------------------------------------
+This Agreement is effective until terminated. You may terminate it at any time by uninstalling and deleting all copies of PhotoWriter. Developer may terminate this license immediately upon material breach of these terms. Provisions that by their nature survive termination shall remain in effect.
+
+----------------------------------------------------------------------
+15. GENERAL PROVISIONS
+----------------------------------------------------------------------
+1. Severability: If any provision of this Agreement is held invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+2. Governing Law: This Agreement shall be governed by and construed in accordance with applicable laws without giving effect to conflict-of-law principles.
+3. Entire Agreement: This Agreement constitutes the entire agreement between you and Developer regarding PhotoWriter, superseding any prior agreements or representations.
+
+(C) 2026 PhotoWriter. All rights reserved.
