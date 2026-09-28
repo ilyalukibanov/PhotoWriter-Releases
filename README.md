@@ -9,7 +9,7 @@ PhotoWriter is a local-first Windows desktop app for selecting, organizing, writ
 
 ## Download
 
-👉 **[Download the Latest Version](releases/latest)**
+👉 **[Download the Latest Version](../..releases/latest)**
 
 - **OS**: Windows 10 / 11 (64-bit)
 - **Installer**: Standard Windows Setup (`PhotoWriter_Setup_x.x.x.exe`)
@@ -40,7 +40,7 @@ It is built from the ground up around a **local-first workflow** — your origin
 
 This repository hosts official compiled releases of PhotoWriter.
 
-See the **[Releases Tab](releases)** for the latest installer packages and release notes.
+See the **[Releases Tab](../../releases)** for the latest installer packages and release notes.
 
 ---
 
